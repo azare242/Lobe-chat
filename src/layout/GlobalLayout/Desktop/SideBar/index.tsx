@@ -15,7 +15,7 @@ export default memo<Props>(({ sidebarKey }) => {
   return (
     <SideNav
       avatar={<AvatarWithUpload id={'avatar'} />}
-      bottomActions={<BottomActions tab={sidebarKey} />}
+      bottomActions={undefined}
       style={{ height: '100%' }}
       topActions={<TopActions tab={sidebarKey} />}
     />
