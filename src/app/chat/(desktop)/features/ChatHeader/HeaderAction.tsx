@@ -26,7 +26,7 @@ const HeaderAction = memo(() => {
         size={DESKTOP_HEADER_ICON_SIZE}
         title={t('roleAndArchive')}
       />
-      <SettingButton />
+      {/* <SettingButton /> */}
     </>
   );
 });

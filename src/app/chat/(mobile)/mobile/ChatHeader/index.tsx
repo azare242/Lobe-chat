@@ -32,7 +32,7 @@ const MobileHeader = memo(() => {
       right={
         <>
           <ShareButton mobile open={open} setOpen={setOpen} />
-          <SettingButton mobile />
+          {/* <SettingButton mobile /> */}
           {/*<Dropdown*/}
           {/*  menu={{*/}
           {/*    items,*/}
