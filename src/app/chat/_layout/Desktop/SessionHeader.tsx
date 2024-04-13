@@ -8,8 +8,9 @@ import { Flexbox } from 'react-layout-kit';
 import { DESKTOP_HEADER_ICON_SIZE } from '@/const/layoutTokens';
 import SyncStatusTag from '@/features/SyncStatusInspector';
 import { useSessionStore } from '@/store/session';
-
+import Image from 'next/image'
 import SessionSearchBar from '../../features/SessionSearchBar';
+import next from 'next';
 
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
@@ -30,7 +31,7 @@ const Header = memo(() => {
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
         <Flexbox align={'center'} gap={4} horizontal>
-        <p className={styles.logo}>AIHUB</p>
+        <Image src="/aihub.jpg" alt="aihub" width={100} height={50} className={styles.logo}/>
 
           <Logo className={styles.logo} size={36} type={'text'} />
           <SyncStatusTag />
