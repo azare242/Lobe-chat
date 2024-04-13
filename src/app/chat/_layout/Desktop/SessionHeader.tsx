@@ -30,6 +30,8 @@ const Header = memo(() => {
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
         <Flexbox align={'center'} gap={4} horizontal>
+        <p className={styles.logo}>AIHUB</p>
+
           <Logo className={styles.logo} size={36} type={'text'} />
           <SyncStatusTag />
         </Flexbox>
