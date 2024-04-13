@@ -33,7 +33,7 @@ const Header = memo(() => {
         <Flexbox align={'center'} gap={4} horizontal>
         <Image src="/aihub.jpg" alt="aihub" width={100} height={50} className={styles.logo}/>
 
-          <Logo className={styles.logo} size={36} type={'text'} />
+
           <SyncStatusTag />
         </Flexbox>
         <ActionIcon
