@@ -1,4 +1,4 @@
-import { ActionIcon, Logo } from '@lobehub/ui';
+import { ActionIcon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { MessageSquarePlus } from 'lucide-react';
 import { memo } from 'react';
@@ -10,7 +10,7 @@ import SyncStatusTag from '@/features/SyncStatusInspector';
 import { useSessionStore } from '@/store/session';
 import Image from 'next/image'
 import SessionSearchBar from '../../features/SessionSearchBar';
-import next from 'next';
+
 
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
@@ -31,7 +31,7 @@ const Header = memo(() => {
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
         <Flexbox align={'center'} gap={4} horizontal>
-        <Image src="/aihub.jpg" alt="aihub" width={100} height={50} className={styles.logo}/>
+        <Image  alt="aihub" className={styles.logo} height={50} src="/aihub.jpg" width={100}  />
 
 
           <SyncStatusTag />
