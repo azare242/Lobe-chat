@@ -4,7 +4,6 @@ import { memo } from 'react';
 import AvatarWithUpload from '@/features/AvatarWithUpload';
 import { SidebarTabKey } from '@/store/global/initialState';
 
-import BottomActions from './BottomActions';
 import TopActions from './TopActions';
 
 interface Props {

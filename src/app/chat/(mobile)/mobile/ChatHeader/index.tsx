@@ -2,7 +2,6 @@ import { MobileNavBar } from '@lobehub/ui';
 import { useRouter } from 'next/navigation';
 import { memo, useState } from 'react';
 
-import SettingButton from '../../../features/SettingButton';
 import ShareButton from '../../../features/ShareButton';
 import ChatHeaderTitle from './ChatHeaderTitle';
 
